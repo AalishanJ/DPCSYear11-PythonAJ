@@ -5,6 +5,17 @@ def findSum(num):
 		x = num % 10
 		num = num//10
 		s = s + x
-		print s
+	
+	return s
 
-findSum(720)
+
+def checkHarshad(n):
+		if (n % findSum(n) == 0):
+			return True
+		return False
+
+low = 80
+high = 100
+
+for i in range(low,high,1):
+	print checkHarshad(i)
