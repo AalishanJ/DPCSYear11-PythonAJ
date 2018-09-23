@@ -29,6 +29,7 @@ class Display:
 		print("Running")
 		statement = self.ent.get()
 		os.system("say "+ statement)
+		os.system("echo "+statement)
 
 
 d = Display() # creates a display object called d. It runs

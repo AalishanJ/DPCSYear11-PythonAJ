@@ -14,8 +14,11 @@ def checkHarshad(n):
 			return True
 		return False
 
-low = 80
-high = 100
+low = input()
+low = int(low)
+high = input()
+high = int(high)
 
 for i in range(low,high,1):
-	print checkHarshad(i)
+	print (checkHarshad(i))
+
