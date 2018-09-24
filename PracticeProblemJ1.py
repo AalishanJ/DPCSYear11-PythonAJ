@@ -1,4 +1,4 @@
-a = input("")
+a = input("") #for addition to Git
 a = int(a)
 
 b = input("")
